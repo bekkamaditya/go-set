@@ -1,40 +1,5 @@
 package myset
 
-// type mystring string
-//
-// func (s1 mystring) Compare(s2 interface{}) bool {
-// 	compared := strings.Compare(fmt.Sprintf("%s", s1), fmt.Sprintf("%s", s2))
-// 	return compared == 0
-// }
-//
-// func main() {
-// 	fmt.Println("Implementing set data structure")
-//
-// 	// var arr []Element
-// 	// arr[0] = mystring("aditya")
-// 	arr := []Element{
-// 		mystring("aditya"),
-// 		mystring("bekkam"),
-// 		mystring("venkata"),
-// 		mystring("venkata"),
-// 		mystring("venkata"),
-// 		mystring("venkata"),
-// 	}
-// 	s := NewSet(arr)
-// 	fmt.Printf("%+v\n", s)
-// 	arr1 := []Element{
-// 		mystring("foo"),
-// 		mystring("bar"),
-// 		mystring("bekkam"),
-// 		mystring("one"),
-// 	}
-// 	s1 := NewSet(arr1)
-// 	fmt.Printf("%+v\n", s1)
-// 	fmt.Printf("%+v\n", s.Union(s1))
-// 	fmt.Printf("%+v\n", s.Intersection(s1))
-// 	fmt.Printf("%+v\n", s.Difference(s1))
-// }
-
 // Element ...
 type Element interface {
 	Compare(interface{}) bool
